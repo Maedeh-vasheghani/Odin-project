@@ -1,0 +1,78 @@
+
+ * {
+  box-sizing: border-box;
+  }
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #F9E7C5;
+}
+.container{
+  margin: 50px auto;
+  width: 80%;
+  padding: 40px;
+  box-shadow: 0px 0px 27px -4px rgba(189, 115, 18, 0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+ .h1_donuts, .h1_pain,.h1_creps {
+  text-align: center;
+  font-size: 45px;
+}
+.recipes_img{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.recipes_img img {
+  margin: 20px;
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 20px 38px -3px rgba(0,0,0,0.1);
+}
+h2 {
+  font-size: 30px;
+}
+p, li{
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(149, 27, 27);
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header{
+  width: 100%;
+  border-bottom: dotted #EAC080;
+  }
+  .navbar-elements ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  
+  }
+  .navbar-elements ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .navbar-elements a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+  a:hover { /* default hover effect */
+    color:#A6690D;
+  }
